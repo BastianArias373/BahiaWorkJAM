@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7b79b899-3d13-4866-9338-974f8554d2ef}">
+		<property name="assetPath">
+			<value>sfx/ambient/amb_3.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>10.225170068027211</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c6a0be2e-ab91-4f65-be00-2f5c77827e81}</destination>
+		</relationship>
+	</object>
+</objects>

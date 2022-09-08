@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{fd12d0ef-55e5-4799-adb6-ecc92e091d1e}">
+		<property name="note">
+			<value>0= resume game
+1= pause</value>
+		</property>
+		<property name="name">
+			<value>toPause</value>
+		</property>
+		<relationship name="folder">
+			<destination>{45c3836d-61dd-4094-b37f-d9e0bb6c5486}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{91cae32a-1f65-4247-90e5-c23949282c34}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{91cae32a-1f65-4247-90e5-c23949282c34}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

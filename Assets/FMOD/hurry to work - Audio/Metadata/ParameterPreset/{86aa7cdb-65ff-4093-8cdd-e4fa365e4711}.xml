@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{86aa7cdb-65ff-4093-8cdd-e4fa365e4711}">
+		<property name="note">
+			<value>0=menu 1=gameplay</value>
+		</property>
+		<property name="name">
+			<value>scenesManager</value>
+		</property>
+		<relationship name="folder">
+			<destination>{45c3836d-61dd-4094-b37f-d9e0bb6c5486}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e3100507-6c3e-46de-a81d-b3103f4c2834}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e3100507-6c3e-46de-a81d-b3103f4c2834}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
